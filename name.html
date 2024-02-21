@@ -40,13 +40,12 @@
 
 
         <script>
-            
            
             form.addEventListener('submit', (e) => {
                 e.preventDefault();
                 document.querySelector("#sub").value = "Submiting..";
                 let data = new FormData(form);
-                fetch('https://script.google.com/macros/s/AKfycbzRdR35WR-CjhYCR55mzhEIkoGfMef91lzCQJ5Yrwo-OhtvSujDj-bnIKYJbpPpUxCwNw/exec', {
+                fetch('https://script.google.com/macros/s/AKfycbzZXM18QZTS_SeMA6JhDS01QFt-sIzvgp4CUMcHVBS6qPmc2NiWEy4Q-Z-wB147QVdWPg/exec', {
                         method: "POST",
                         body: data
                     })
