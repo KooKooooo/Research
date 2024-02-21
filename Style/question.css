@@ -1,0 +1,42 @@
+.question-container{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.question-position{
+    display: flex;
+    flex-direction: column;
+}
+
+.question-title{
+    background-color: orange;
+    text-align: center;
+}
+
+.question-reply{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    gap: 1em;
+}
+
+.yes-box{
+    background-color: greenyellow;
+    width: 100px;
+    text-align: center;
+}
+
+.no-box{
+    background-color: pink;
+    width: 100px;
+    text-align: center;
+}
